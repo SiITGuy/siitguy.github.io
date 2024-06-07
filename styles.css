@@ -12,56 +12,6 @@ header {
     position: relative;
 }
 
-.menu-container {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    background-color: #000;
-    padding: 5px;
-    border-radius: 5px;
-    z-index: 1001;
-}
-
-.menu-icon {
-    font-size: 30px;
-    cursor: pointer;
-    color: #fff;
-}
-
-.side-menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: #333;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.side-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.side-menu ul li {
-    padding: 10px 0;
-    text-align: center;
-}
-
-.side-menu ul li a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    font-size: 20px;
-    transition: 0.3s;
-}
-
-.side-menu ul li a:hover {
-    color: #f1f1f1;
-}
-
 .section {
     padding: 50px;
     text-align: center;
@@ -117,6 +67,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
