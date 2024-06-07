@@ -9,20 +9,36 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    position: relative;
 }
 
-header nav ul {
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.popup-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    text-align: center;
+    z-index: 1000;
+}
+
+.popup-menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
+.popup-menu ul li {
+    padding: 10px 0;
 }
 
-header nav ul li a {
+.popup-menu ul li a {
     color: #fff;
     text-decoration: none;
 }
