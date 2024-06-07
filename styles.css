@@ -28,30 +28,38 @@ header {
     color: #fff;
 }
 
-.popup-menu {
-    display: none;
+.side-menu {
+    height: 100%;
+    width: 0;
     position: fixed;
-    top: 50px;
+    top: 0;
     right: 0;
-    width: 200px;
     background-color: #333;
-    text-align: center;
-    z-index: 1000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.popup-menu ul {
+.side-menu ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
-.popup-menu ul li {
+.side-menu ul li {
     padding: 10px 0;
+    text-align: center;
 }
 
-.popup-menu ul li a {
+.side-menu ul li a {
     color: #fff;
     text-decoration: none;
+    display: block;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.side-menu ul li a:hover {
+    color: #f1f1f1;
 }
 
 .section {
@@ -109,6 +117,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
